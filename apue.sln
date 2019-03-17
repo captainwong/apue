@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5AB24153-1730-44B5-AE78-43A206192709}"
+	ProjectSection(SolutionItems) = preProject
+		apue.h = apue.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter1", "chapter1", "{18A92AA3-AAAA-4A3F-8F2A-619134DF1026}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.4", "chapter1\1.4\1.4.vcxproj", "{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Debug|ARM.Build.0 = Debug|ARM
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Debug|ARM64.Build.0 = Debug|ARM64
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Debug|x64.ActiveCfg = Debug|x64
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Debug|x64.Build.0 = Debug|x64
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Debug|x86.ActiveCfg = Debug|x86
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Debug|x86.Build.0 = Debug|x86
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Release|ARM.ActiveCfg = Release|ARM
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Release|ARM.Build.0 = Release|ARM
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Release|ARM64.ActiveCfg = Release|ARM64
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Release|ARM64.Build.0 = Release|ARM64
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Release|x64.ActiveCfg = Release|x64
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Release|x64.Build.0 = Release|x64
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Release|x86.ActiveCfg = Release|x86
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8D1CBBB-E67C-4472-BF80-EB25BBFC173C} = {18A92AA3-AAAA-4A3F-8F2A-619134DF1026}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {319D71C6-656C-4A7B-8CEC-3F4DED7432B4}
+	EndGlobalSection
+EndGlobal
