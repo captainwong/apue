@@ -1,6 +1,9 @@
 bin/
-wechat_server.log*
 ipch/
+readme/
+Debug/
+Release/
+obj/
 
 # https://github.com/github/gitignore/blob/master/CMake.gitignore
 CMakeCache.txt
@@ -26,10 +29,6 @@ parse_test
 *.pdb
 *.exe
 *.dll
-http_server/Debug/
-http_server/Release/
-http_server/bin/
-http_server/obj/
 build/
 *.o
 .vs/
