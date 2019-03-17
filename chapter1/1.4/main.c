@@ -19,8 +19,26 @@ int main(int argc, char *argv[])
 		abort();
 	}
 
-	while ((dirp = readdir(dp)) != NULL)
-		printf("%s\n", dirp->d_name);
+	
+	// struct dirent
+	// {
+	// #ifndef __USE_FILE_OFFSET64
+	//	__ino_t d_ino;
+	//	__off_t d_off;
+	// #else
+	//	__ino64_t d_ino;
+	//	__off64_t d_off;
+	// #endif
+	//	unsigned short int d_reclen;
+	//	unsigned char d_type;
+	//	char d_name[256];		/* We must not include limits.h! */
+	// };
+	
+
+	while ((dirp = readdir(dp)) != NULL) {
+		printf("%s\td_ino=%d d_off=%d d_reclen=%d d_type=%d\n", 
+			   dirp->d_name, dirp->d_ino, dirp->d_off, dirp->d_reclen, dirp->d_type);
+	}
 
 	closedir(dp);
 	exit(0);
